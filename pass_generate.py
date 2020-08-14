@@ -14,9 +14,8 @@ def gen_password(length):
     print('Password Suggestion :', password)
 
 
-
-leng = int(input('Enter the Length of Password you want to generate: '))
-
-gen_password(leng)
+if __name___=='__main':
+    leng = int(input('Enter the Length of Password you want to generate: '))
+    gen_password(leng)
 
 
